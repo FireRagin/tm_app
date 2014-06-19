@@ -20,8 +20,8 @@ tm_app
     *  详细的格式稍后确定
 
 * accesstoken是用户验证凭据  进行各种查询的时候必须携带这个
-    *  比如通过订单号查询详细信息 get一个url ``/get_order_info/?access_token=402308rwei
-    &order_id=100``
+    *  比如通过订单号查询详细信息 get一个url ``/get_order_info/?access_token=402308rwei&order_id=100``
+        *  返回的格式类似``{"err_code": 0, "content":{"name": "hehe", "phone":"11111", "total_money":120}``  
     *  更改订单状态也是类似
 
 ##短信电话
